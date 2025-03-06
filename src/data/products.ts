@@ -66,7 +66,8 @@ export const products: Product[] = [
     name: "Carrots",
     price: 1.79,
     category: "vegetables",
-    image: "https://images.unsplash.com/photo-1598170845058-32b9d6a5d4f6",
+    image:
+      "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fycm90fGVufDB8fDB8fHww",
     description:
       "Sweet and crunchy carrots, perfect for snacking, salads, or cooking.",
     unit: "lb",
