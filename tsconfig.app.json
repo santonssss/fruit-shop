@@ -11,7 +11,8 @@
       "@data/*": ["src/data/*"],
       "@context/*": ["src/context/*"],
       "@store/*": ["src/store/*"],
-      "@lib/*": ["src/lib/*"]
+      "@lib/*": ["src/lib/*"],
+      "@hooks/*": ["src/hooks/*"]
     },
     "baseUrl": ".",
     /* Bundler mode */
