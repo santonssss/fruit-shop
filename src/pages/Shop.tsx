@@ -1,5 +1,4 @@
 import CategoryFilter from "@components/CategoryFilter";
-import Layout from "@components/Layout";
 import ProductCard from "@components/ProductCard";
 import { getProductsByCategory } from "@data/products";
 import React from "react";
@@ -16,7 +15,7 @@ const Shop: React.FC = () => {
   }, [activeCategory]);
 
   return (
-    <Layout>
+    <>
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Our Products</h1>
@@ -36,7 +35,7 @@ const Shop: React.FC = () => {
           ))}
         </div>
       </div>
-    </Layout>
+    </>
   );
 };
 

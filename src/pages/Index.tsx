@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Layout from "@components/Layout";
 import Banner from "@components/Banner";
 import ProductCard from "@components/ProductCard";
 import CategoryFilter from "@components/CategoryFilter";
@@ -24,7 +23,7 @@ const Index: React.FC = () => {
   };
 
   return (
-    <Layout>
+    <>
       <Banner />
 
       <section className="py-16">
@@ -130,7 +129,7 @@ const Index: React.FC = () => {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 };
 
