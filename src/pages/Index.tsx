@@ -120,7 +120,7 @@ const Index: React.FC = () => {
               </div>
               <div className="relative min-h-[300px] md:min-h-0">
                 <img
-                  src="https://images.unsplash.com/photo-1595351280942-f09c1e0984a1?q=80&w=1974"
+                  src="https://images.unsplash.com/photo-1485637701894-09ad422f6de6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFybWVycyUyMG1hcmtldHxlbnwwfHwwfHx8MA%3D%3D"
                   alt="Farmers Market"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
