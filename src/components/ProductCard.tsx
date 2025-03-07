@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 import { ShoppingCart, Plus } from "lucide-react";
 import { toast } from "sonner";
 import { Card, CardContent, CardFooter } from "./ui/card";
-import { Badge } from "lucide-react";
+import { Badge } from "./ui/badge";
 
 interface ProductCardProps {
   product: Product;
